@@ -93,6 +93,10 @@
   --ff-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
   --ff-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
 }
+[data-type="warm"] {
+  --ff-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --ff-body: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+}
 
 /* ──────────────────────────────────────────────────── reset & base */
 
@@ -217,7 +221,7 @@ section { padding-block: var(--pad-section-y); }
   color: var(--ink);
   margin: 0;
 }
-[data-type="modern"] .h-display, [data-type="clean"] .h-display {
+[data-type="modern"] .h-display, [data-type="clean"] .h-display, [data-type="warm"] .h-display {
   font-weight: 600;
   letter-spacing: -0.03em;
 }
@@ -231,19 +235,19 @@ section { padding-block: var(--pad-section-y); }
   margin: 14px 0 0;
   color: var(--ink);
 }
-[data-type="modern"] .h-section, [data-type="clean"] .h-section { font-weight: 600; }
+[data-type="modern"] .h-section, [data-type="clean"] .h-section, [data-type="warm"] .h-section { font-weight: 600; }
 
 .h-section em {
   font-style: italic;
   color: var(--accent-deep);
 }
-[data-type="modern"] .h-section em, [data-type="clean"] .h-section em {
+[data-type="modern"] .h-section em, [data-type="clean"] .h-section em, [data-type="warm"] .h-section em {
   font-style: normal;
   color: var(--accent-deep);
   font-weight: 400;
   position: relative;
 }
-[data-type="modern"] .h-section em::after, [data-type="clean"] .h-section em::after {
+[data-type="modern"] .h-section em::after, [data-type="clean"] .h-section em::after, [data-type="warm"] .h-section em::after {
   content: "";
   position: absolute; left: 0; right: 0; bottom: 4px; height: 8px;
   background: var(--accent-soft); z-index: -1; border-radius: 4px;
@@ -339,7 +343,7 @@ section { padding-block: var(--pad-section-y); }
   color: var(--ink);
   margin: 0;
 }
-[data-type="modern"] .hero-name, [data-type="clean"] .hero-name {
+[data-type="modern"] .hero-name, [data-type="clean"] .hero-name, [data-type="warm"] .hero-name {
   font-weight: 600;
   letter-spacing: -0.05em;
 }
@@ -350,7 +354,8 @@ section { padding-block: var(--pad-section-y); }
   display: inline-block;
 }
 [data-type="modern"] .hero-name .accent-word,
-[data-type="clean"] .hero-name .accent-word {
+[data-type="clean"] .hero-name .accent-word,
+[data-type="warm"] .hero-name .accent-word {
   font-style: normal;
 }
 
@@ -545,7 +550,7 @@ section { padding-block: var(--pad-section-y); }
   align-items: baseline;
   gap: 2px;
 }
-[data-type="modern"] .number-figure, [data-type="clean"] .number-figure { font-weight: 600; }
+[data-type="modern"] .number-figure, [data-type="clean"] .number-figure, [data-type="warm"] .number-figure { font-weight: 600; }
 .number-figure .unit {
   font-size: 22px;
   color: var(--accent-deep);
@@ -622,7 +627,7 @@ section { padding-block: var(--pad-section-y); }
   font-weight: 400;
   margin: 0;
 }
-[data-type="modern"] .exp-card-company, [data-type="clean"] .exp-card-company { font-weight: 600; }
+[data-type="modern"] .exp-card-company, [data-type="clean"] .exp-card-company, [data-type="warm"] .exp-card-company { font-weight: 600; }
 .exp-card-role {
   font-size: 14px;
   color: var(--ink-2);
@@ -779,7 +784,7 @@ section { padding-block: var(--pad-section-y); }
   color: var(--ink);
   line-height: 1.1;
 }
-[data-type="modern"] .tl-content h4, [data-type="clean"] .tl-content h4 { font-weight: 600; }
+[data-type="modern"] .tl-content h4, [data-type="clean"] .tl-content h4, [data-type="warm"] .tl-content h4 { font-weight: 600; }
 .tl-content .tl-role {
   font-size: 14px;
   color: var(--accent-deep);
@@ -850,7 +855,7 @@ section { padding-block: var(--pad-section-y); }
   color: var(--ink);
   line-height: 1.1;
 }
-[data-type="modern"] .exp-item-co, [data-type="clean"] .exp-item-co { font-weight: 600; }
+[data-type="modern"] .exp-item-co, [data-type="clean"] .exp-item-co, [data-type="warm"] .exp-item-co { font-weight: 600; }
 .exp-item-role { font-size: 14px; color: var(--ink-2); }
 .exp-item-date { font-family: var(--ff-mono); font-size: 12px; color: var(--muted); text-align: right; letter-spacing: .04em; }
 .exp-item-chev {
@@ -954,7 +959,7 @@ section { padding-block: var(--pad-section-y); }
   font-weight: 400;
   letter-spacing: -0.015em;
 }
-[data-type="modern"] .tk-group-head h4, [data-type="clean"] .tk-group-head h4 { font-weight: 600; }
+[data-type="modern"] .tk-group-head h4, [data-type="clean"] .tk-group-head h4, [data-type="warm"] .tk-group-head h4 { font-weight: 600; }
 .tk-group-head .count {
   font-family: var(--ff-mono);
   font-size: 11.5px;
@@ -1058,7 +1063,7 @@ section { padding-block: var(--pad-section-y); }
   background: var(--accent-2-soft);
   color: var(--accent-2-deep);
 }
-[data-type="modern"] .play-card-glyph, [data-type="clean"] .play-card-glyph { font-weight: 600; }
+[data-type="modern"] .play-card-glyph, [data-type="clean"] .play-card-glyph, [data-type="warm"] .play-card-glyph { font-weight: 600; }
 
 .play-card-eyebrow {
   font-family: var(--ff-mono);
@@ -1077,9 +1082,9 @@ section { padding-block: var(--pad-section-y); }
   color: var(--ink);
   position: relative;
 }
-[data-type="modern"] .play-card-title, [data-type="clean"] .play-card-title { font-weight: 600; }
+[data-type="modern"] .play-card-title, [data-type="clean"] .play-card-title, [data-type="warm"] .play-card-title { font-weight: 600; }
 .play-card-title em { font-style: italic; color: var(--accent-deep); }
-[data-type="modern"] .play-card-title em, [data-type="clean"] .play-card-title em { font-style: normal; color: var(--accent-deep); }
+[data-type="modern"] .play-card-title em, [data-type="clean"] .play-card-title em, [data-type="warm"] .play-card-title em { font-style: normal; color: var(--accent-deep); }
 .play-card.gold .play-card-title em { color: var(--accent-2-deep); }
 
 .play-card-body {
@@ -1217,12 +1222,12 @@ section { padding-block: var(--pad-section-y); }
   letter-spacing: -0.025em;
   margin: 20px 0 24px;
 }
-[data-type="modern"] .contact h2, [data-type="clean"] .contact h2 { font-weight: 600; }
+[data-type="modern"] .contact h2, [data-type="clean"] .contact h2, [data-type="warm"] .contact h2 { font-weight: 600; }
 .contact h2 em {
   font-style: italic;
   color: var(--accent-deep);
 }
-[data-type="modern"] .contact h2 em, [data-type="clean"] .contact h2 em {
+[data-type="modern"] .contact h2 em, [data-type="clean"] .contact h2 em, [data-type="warm"] .contact h2 em {
   font-style: normal;
   text-decoration: underline;
   text-decoration-color: var(--accent);
