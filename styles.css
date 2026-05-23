@@ -1156,6 +1156,12 @@ section { padding-block: var(--pad-section-y); }
   height: 100%;
   display: block;
 }
+.play-photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .play-photo-cap {
   position: absolute;
   left: 16px;

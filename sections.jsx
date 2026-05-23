@@ -452,12 +452,10 @@ function Play() {
 
       <div className="play-photos reveal d4 in">
         <div className="play-photo">
-          <image-slot id="play-photo-1" placeholder="Drop a photo — crochet / outdoors / something joyful" shape="rounded" radius="16"></image-slot>
-          <span className="play-photo-cap">A favourite from outside work</span>
+          <img src="assets/play-photo-1.jpg" alt="" className="play-photo-img" />
         </div>
         <div className="play-photo">
-          <image-slot id="play-photo-2" placeholder="Drop a photo — gym / community / travel" shape="rounded" radius="16"></image-slot>
-          <span className="play-photo-cap">Another one — your call</span>
+          <img src="assets/play-photo-2.png" alt="" className="play-photo-img" />
         </div>
       </div>
     </section>);
