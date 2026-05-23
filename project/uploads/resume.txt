@@ -1,0 +1,116 @@
+
+
+[P]
+[P]Minh Anh Pham
+[P]
+[P]+61 410 909 
+[P]077  |
+[P]  
+[P]minhanhp4@gmail.com  |
+[P]  www.linkedin.com/in/minh-anh-pham-4
+[P]
+[P]
+[P]Professional Summary
+[P]
+[P]Associate consultant with demonstrated expertise in problem-solving, strategic analysis, and decision-support for executive and board governance. Proven capability in cost and spend reconciliation, scenario forecasting, and variance analysis. Experienced in developing high-quality strategic planning artefacts, leadership papers, and governance reporting for 
+[P]regulated,
+[P] asset-intensive organisations. Strong analytical foundation combined with ability to translate complex financial and strategic information into clear, actionable insights for diverse stakeholder audiences.
+[P]
+[P]
+[P]Skills
+[P]
+[P]Technical
+[P]
+[P]
+[P]Financial analysis: cost/spend reconciliation against SAP S/4HANA, forecast vs. actual variance analysis, business-case modelling, budget and resource forecasting
+[P]
+[P]
+[P]Tools: Excel (INDEX/MATCH, VLOOKUP, SUMIF, pivot tables, conditional formatting, charting), Power BI dashboards, Jira Align, advanced PowerPoint, Word, Miro, Visio
+[P]
+[P]
+[P]Core Competencies
+[P]
+[P]
+[P]Strategic and market analysis, scenario forecasting, options analysis, competitor and portfolio analysis
+[P]
+[P]
+[P]Executive and board-level reporting, decision-support papers, data visualisation
+[P]
+[P]
+[P]Stakeholder engagement across peers, SLTs, ELTs, and board forums
+[P]
+[P]
+[P]Professional Experience
+[P]
+[P]	PMO 
+[P]Analyst  |
+[P]  Optus — Portfolio Management	Nov 2025 – Present
+[P]
+[P]Seconded to Corporate IT
+[P]
+[P]
+[P]Identified $257,000 in forecast-to-actual spend variances by reconciling cost data against SAP S/4HANA reporting, flagging and investigating each discrepancy with initiative owners to protect budget integrity.
+[P]
+[P]
+[P]Co-led the FY26Q4 and FY27Q1 quarterly planning cycles across a 17-team, 485-resource portfolio, consolidating timelines, resource forecasts, and budget allocations into the approved portfolio prioritisation roadmap.
+[P]
+[P]	Associate 
+[P]Consultant  |
+[P]  NCS Australia — Technology Advisory	Feb 2025 – Present
+[P]
+[P]
+[P]Managed a business-case cost model supporting an ~$700k multi-year investment, owning the inputs and assumptions and producing the options analysis and recommendation slides for stakeholder review.
+[P]
+[P]
+[P]Assessed 20 content management systems against client KPIs for a regulated utilities client, narrowing the field to a single recommended solution.
+[P]
+[P]
+[P]Supported a $4M digital transformation for a national telecommunications client, working with the Salesforce Lead and Global Transformation Officer on delivery and business-development strategy.
+[P]
+[P]	Strategy 
+[P]Analyst  |
+[P]  Pacific National — Strategy & Competitive Intelligence	May 2024 – Nov 2024
+[P]
+[P]
+[P]Produced 6 monthly intelligence reports for executive leadership and the board, forecasting national haulage demand through macroeconomic scenario analysis and flagging risks across state and national economies.
+[P]
+[P]
+[P]Tracked the 3 major players and 4 national rail corridors to map market share, identifying the highest- and lowest-performing corridors to guide medium-to-long-term expansion strategy.
+[P]
+[P]
+[P]Researched freight and truck traffic across 6 major highways, giving the strategy team a clearer read on intermodal and bulk-industry competition.
+[P]
+[P]	Undergraduate 
+[P]Consultant  |
+[P]  BDO — Digital & Technology Consulting	May 2023 – May 2024
+[P]
+[P]
+[P]Ran 19 stakeholder workshops across every business unit up to CIO level to shape a private health insurer's data strategy, which was implemented alongside a new data governance steering committee.
+[P]
+[P]
+[P]Mapped customer personas and a customer journey through primary research, contributing to a 25% uplift in customer-satisfaction scores.
+[P]
+[P]
+[P]Other Experience
+[P]
+[P]
+[P]Deloitte — Technology Strategy & Transformation Intern (2023): Mapped processes across 5 business functions in Miro and Visio, cutting process cycle time by 33%.
+[P]
+[P]
+[P]BDO — Cybersecurity Intern (2022): Reviewed 200+ documents across four projects to confirm client compliance with ISO 27001, SOC 2 Type II, and CPS 234.
+[P]
+[P]
+[P]
+[P]BusinessOne
+[P] Consulting — Strategy Consultant (2022): Analysed 6 competitors in Australia's healthcare consulting market to sharpen the client's value proposition.
+[P]
+[P]
+[P]ANZ Bank — Technology Intern (2021): Produced configuration management and steering committee documentation to tighten project governance.
+[P]
+[P]
+[P]Education
+[P]
+[P]	Bachelor of Project Management (Major: Business Information Systems)	2021 – 2024
+[P]University of Sydney
+[P]
+[P]
