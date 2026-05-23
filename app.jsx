@@ -4,8 +4,8 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "palette": "sage",
   "density": "comfy",
   "heroVariant": "default",
-  "expLayout": "cards",
-  "typePairing": "editorial"
+  "expLayout": "timeline",
+  "typePairing": "clean"
 }/*EDITMODE-END*/;
 
 function useScrollReveal() {
