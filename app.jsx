@@ -5,7 +5,7 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "density": "comfy",
   "heroVariant": "default",
   "expLayout": "timeline",
-  "typePairing": "clean"
+  "typePairing": "warm"
 }/*EDITMODE-END*/;
 
 function useScrollReveal() {
@@ -118,6 +118,7 @@ function App() {
           label="Pairing"
           value={t.typePairing}
           options={[
+            { value: "warm",      label: "Warm Humanist (Plus Jakarta Sans + DM Sans)" },
             { value: "editorial", label: "Editorial (Instrument Serif + Geist)" },
             { value: "modern",    label: "Modern (Bricolage + Geist)" },
             { value: "clean",     label: "Clean (Manrope)" },
