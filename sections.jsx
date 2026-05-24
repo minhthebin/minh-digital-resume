@@ -107,18 +107,21 @@ function Hero({ heroVariant }) {
     <section className="hero" id="top">
       <div className="hero-grid">
         <div>
-          <p className="hero-role reveal d1 in">Strategy & Technology Transformation</p>
+          <p className="hero-role reveal d1 in"> Technology Strategy & Digital Transformation</p>
           <h1 className="hero-name reveal d2 in">
             Minh Anh<br />
-            <span className="accent-word">Pham.</span>
+            <span className="accent-word">Pham</span>
           </h1>
           <p className="hero-blurb reveal d3 in">
-            Associate consultant translating complex strategy and financial data into clear, decision-ready insight for executives and boards — across regulated, asset-intensive industries.
+            Hi, I'm Minh! I'm an associate consultant with a passion for solving complex problems 
+            with structure and rigor. I have experience in regulated, asset-intensive industries such as telecommunications, 
+             freight, and private health insurance. 
+             I approach each problem with a set of paradigms - structure, diligence, and curiosity. Read on to find out more about my 9-5 and 5-9! 
           </p>
           <div className="hero-tagline reveal d4 in">
             <span>Strategic problem-solver</span>
-            <span>Transformation catalyst</span>
-            <span>Data-driven insights</span>
+            <span>Transformation enthusiast</span>
+            <span>Data-driven analyst</span>
           </div>
           <div className="hero-actions reveal d5 in">
             <a href="#contact" className="btn btn-primary">
@@ -168,7 +171,7 @@ function About() {
       <div className="section-head reveal in">
         <div>
           <span className="eyebrow">01 — About</span>
-          <h2 className="h-section">A <em>strategist</em> who speaks fluently in spreadsheets and slides.</h2>
+          <h2 className="h-section">A <em>problem-solver</em> who speaks fluently in spreadsheets and slides.</h2>
         </div>
         <div className="section-head-right">By the numbers ↘</div>
       </div>
