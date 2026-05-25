@@ -339,14 +339,14 @@ const PLAY = [
   eyebrow: "Making",
   glyph: "✬",
   title: <>Crochet, and <em>building Minochet</em></>,
-  body: <>I knot yarn into things I can wear and gift — slow, tactile, completely outside a spreadsheet. I'm also building <b>Minochet</b>, a little web app to plan and track projects, because I couldn't help myself.</>,
-  foot: { label: "minochet.lovable.app", href: "https://minochet.lovable.app" }
+  body: <>In my downtime, I like to crochet trinkets and accessories for my friends and family. It’s a great way to relax, practice mindfulness, and giving others joy provides me with joy as well. I built Minochet to show my loved ones my current projects. </>,
+  foot: { label: "minochet.lovable.app", href: "https://minochet.lovable.app/dashboard/view/87a6e5fe-f4c8-4c20-b7cc-493a36224326" }
 },
 {
   eyebrow: "Moving",
   glyph: "◆",
   title: <>Boxing & <em>Muay Thai</em></>,
-  body: <>Two days a week, hands up, brain off. The best counter-balance I've found to long days of slide-decks and stakeholder maps — and a quiet lesson in showing up when it's hard.</>,
+  body: <>I firmly believe in “moving gives you energy”. I box and do muay thai twice a week which I’ve found to be a great balance with work. </>,
   foot: { label: "Sydney · ongoing" },
   gold: true
 },
@@ -354,7 +354,7 @@ const PLAY = [
   eyebrow: "Showing up",
   glyph: "♠",
   title: <>LGBTQ+ <em>advocacy</em></>,
-  body: <>Volunteering with <a href="https://www.acon.org.au/" target="_blank" rel="noopener"><b>ACON</b></a> and <a href="https://ycollab.com.au/" target="_blank" rel="noopener"><b>YCOLLAB</b></a> on community programs and youth engagement. The work that keeps me grounded — a useful reminder that strategy is only as good as the people it ends up serving.</>,
+  body: <>I volunteer with <a href="https://www.acon.org.au/" target="_blank" rel="noopener"><b>ACON</b></a> and <a href="https://ycollab.com.au/" target="_blank" rel="noopener"><b>YCOLLAB</b></a> on community programs and youth engagement. Advocating for LGBTQ+ youth in Western Sydney keeps me grounded; the community I’ve built in this brings me a great sense of belonging, and I hope to pass that on to others. </>,
   foot: { label: "ACON · YCOLLAB" }
 }];
 
