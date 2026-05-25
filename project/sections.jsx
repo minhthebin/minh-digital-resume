@@ -124,8 +124,8 @@ function Hero({ heroVariant }) {
             <a href="#contact" className="btn btn-primary">
               Let's talk <span className="arrow">→</span>
             </a>
-            <a href="resume.pdf" className="btn btn-ghost" download>
-              Download résumé <span className="arrow">↓</span>
+            <a href="Minh Anh Pham - Resume.pdf" className="btn btn-ghost" download>
+              Download resume <span className="arrow">↓</span>
             </a>
           </div>
           <div className="hero-meta reveal d5 in">
