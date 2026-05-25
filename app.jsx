@@ -56,7 +56,6 @@ function Nav() {
       <div className="nav-links">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#toolkit">Toolkit</a>
         <a href="#play">Play</a>
         <a href="#contact">Contact</a>
       </div>
@@ -98,7 +97,6 @@ function App() {
         <Hero heroVariant={t.heroVariant} />
         <About />
         <Experience key={expKey} layout={t.expLayout} />
-        <Toolkit />
         <Play />
         <Contact />
       </main>
