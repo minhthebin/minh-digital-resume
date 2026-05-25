@@ -307,7 +307,7 @@ function Contact() {
             <a className="contact-link" href="https://www.linkedin.com/in/minh-anh-pham4/" target="_blank" rel="noopener noreferrer">
               <div>
                 <div className="contact-link-label">LinkedIn</div>
-                <div>/in/minh-anh-pham-4</div>
+                <div>/in/minh-anh-pham4</div>
               </div>
               <span className="contact-link-arrow">↗</span>
             </a>
