@@ -178,10 +178,10 @@ function About() {
       <div className="about-grid">
         <div className="about-prose reveal d1 in">
           <p>
-            I help leaders make sharper decisions — through <mark>cost reconciliation, scenario forecasting and options analysis</mark> that turn ambiguity into a recommendation a board can sign.
+            I help leaders make better, data driven decisions through <mark>options analysis, forecasting, and root-cause problem solving</mark>.
           </p>
           <p>
-            Most of my work lives at the intersection of strategy and technology — supporting transformation programs, portfolio decisions and executive reporting for regulated, asset-intensive organisations. I'm equally happy in a $4M business case as I am in a stakeholder workshop trying to figure out what the question actually is.
+            I thrive in ambiguous environments, where I can balance breaking down problems into first principles and try different approaches. My adaptability means I am purposeful and driven in any work I do, from conducting stakeholder workshops to processing large sets of data to extract meaning.
           </p>
         </div>
         <div className="numbers reveal d2 in">
@@ -310,10 +310,10 @@ function Toolkit() {
       <div className="section-head reveal in">
         <div>
           <span className="eyebrow">03 — Toolkit</span>
-          <h2 className="h-section">The tools and <em>frames I reach for.</em></h2>
+          <h2 className="h-section">The tools and <em>frameworks I reach for.</em></h2>
         </div>
         <div className="section-head-right">
-          Hover any tag<br />for a closer look
+          My key strengths
         </div>
       </div>
       <div className="toolkit-grid">
@@ -346,9 +346,9 @@ function Contact() {
         <div className="contact-grid">
           <div>
             <span className="eyebrow">05 — Get in touch</span>
-            <h2>Let's solve a complex problem <em>together.</em></h2>
+            <h2>Get to know me <em>better!</em></h2>
             <p className="contact-blurb">
-              Happy to chat about strategy, transformation, or any interesting problem — whether you're hiring, collaborating, or just stuck on something you want a second pair of eyes on.
+              Happy to chat about strategy, transformation, or my experience.
             </p>
             <a href="mailto:minhanhp4@gmail.com" className="btn btn-primary">
               Send me an email <span className="arrow">→</span>
