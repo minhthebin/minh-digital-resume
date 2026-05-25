@@ -104,7 +104,7 @@ function Hero({ heroVariant }) {
             <a href="#contact" className="btn btn-primary">
               Let's talk <span className="arrow">→</span>
             </a>
-            <a href="resume.pdf" className="btn btn-ghost" download="Minh Anh Pham - Resume.pdf">
+            <a href="Minh Anh Pham - Resume.pdf" className="btn btn-ghost" download="Minh Anh Pham - Resume.pdf">
               Download Resume <span className="arrow">↓</span>
             </a>
           </div>
