@@ -68,29 +68,6 @@ const OTHER_EXP = [
 { co: "ANZ Bank", role: "Technology Intern", year: "2021", desc: "Produced configuration management and steering committee documentation to tighten project governance." }];
 
 
-const TOOLKIT = [
-{
-  title: "Strategic Disciplines",
-  count: "01",
-  items: ["Strategic & market analysis", "Scenario forecasting", "Options analysis", "Competitive positioning", "Portfolio analysis", "Cost & spend reconciliation", "Variance analysis", "Business-case modelling"]
-},
-{
-  title: "Core Capabilities",
-  count: "02",
-  items: ["Executive & board reporting", "Decision-support papers", "Data visualisation", "Stakeholder engagement", "SLT & ELT facilitation", "Workshop design", "Governance documentation"]
-},
-{
-  title: "Technical Tools",
-  count: "03",
-  gold: true,
-  items: ["Excel (advanced)", "Power BI", "SAP S/4HANA", "Jira Align", "PowerPoint", "Miro", "Visio", "Word"]
-},
-{
-  title: "Industries",
-  count: "04",
-  gold: true,
-  items: ["Telecommunications", "Utilities", "Healthcare", "Rail & Logistics", "Banking & Financial Services"]
-}];
 
 
 const NUMBERS = [
@@ -127,7 +104,7 @@ function Hero({ heroVariant }) {
             <a href="#contact" className="btn btn-primary">
               Let's talk <span className="arrow">→</span>
             </a>
-            <a href="resume.pdf" className="btn btn-ghost" download="Minh_Anh_Pham_Resume.pdf">
+            <a href="resume.pdf" className="btn btn-ghost" download="Minh Anh Pham - Resume.pdf">
               Download Resume <span className="arrow">↓</span>
             </a>
           </div>
@@ -302,41 +279,6 @@ function Experience({ layout }) {
 
 }
 
-/* ──────────────────────────────── TOOLKIT */
-
-function Toolkit() {
-  return (
-    <section id="toolkit">
-      <div className="section-head reveal in">
-        <div>
-          <span className="eyebrow">03 — Toolkit</span>
-          <h2 className="h-section">The tools and <em>frameworks I reach for.</em></h2>
-        </div>
-        <div className="section-head-right">
-          My key strengths
-        </div>
-      </div>
-      <div className="toolkit-grid">
-        {TOOLKIT.map((g, i) =>
-        <div key={i} className={`tk-group reveal d${i + 1} in`}>
-            <div className="tk-group-head">
-              <h4>{g.title}</h4>
-              <span className="count">{g.count} · {g.items.length} items</span>
-            </div>
-            <div className="tk-tags">
-              {g.items.map((t, j) =>
-            <span key={j} className={`tk-tag ${g.gold ? "gold" : ""}`}>
-                  <span className="tk-dot"></span>{t}
-                </span>
-            )}
-            </div>
-          </div>
-        )}
-      </div>
-    </section>);
-
-}
-
 /* ──────────────────────────────── CONTACT */
 
 function Contact() {
@@ -398,7 +340,6 @@ const PLAY = [
   glyph: "✬",
   title: <>Crochet, and <em>building Minochet</em></>,
   body: <>I knot yarn into things I can wear and gift — slow, tactile, completely outside a spreadsheet. I'm also building <b>Minochet</b>, a little web app to plan and track projects, because I couldn't help myself.</>,
-  pills: ["Tactile", "Side project"],
   foot: { label: "minochet.lovable.app", href: "https://minochet.lovable.app" }
 },
 {
@@ -406,7 +347,6 @@ const PLAY = [
   glyph: "◆",
   title: <>Boxing & <em>Muay Thai</em></>,
   body: <>Two days a week, hands up, brain off. The best counter-balance I've found to long days of slide-decks and stakeholder maps — and a quiet lesson in showing up when it's hard.</>,
-  pills: ["Discipline", "Off the clock"],
   foot: { label: "Sydney · ongoing" },
   gold: true
 },
@@ -414,8 +354,7 @@ const PLAY = [
   eyebrow: "Showing up",
   glyph: "♠",
   title: <>LGBTQ+ <em>advocacy</em></>,
-  body: <>Volunteering with <b>ACON</b> and <b>YCOLLAB</b> on community programs and youth engagement. The work that keeps me grounded — a useful reminder that strategy is only as good as the people it ends up serving.</>,
-  pills: ["Community", "Volunteer"],
+  body: <>Volunteering with <a href="https://www.acon.org.au/" target="_blank" rel="noopener"><b>ACON</b></a> and <a href="https://ycollab.com.au/" target="_blank" rel="noopener"><b>YCOLLAB</b></a> on community programs and youth engagement. The work that keeps me grounded — a useful reminder that strategy is only as good as the people it ends up serving.</>,
   foot: { label: "ACON · YCOLLAB" }
 }];
 
@@ -440,9 +379,6 @@ function Play() {
             </div>
             <h3 className="play-card-title">{p.title}</h3>
             <p className="play-card-body">{p.body}</p>
-            <div className="play-card-pills">
-              {p.pills.map((t, j) => <span key={j}>{t}</span>)}
-            </div>
             <div className="play-card-foot">
               {p.foot.href ?
             <a href={p.foot.href} target="_blank" rel="noopener">{p.foot.label}</a> :
@@ -465,4 +401,4 @@ function Play() {
 
 }
 
-Object.assign(window, { Hero, About, Experience, Toolkit, Play, Contact });
+Object.assign(window, { Hero, About, Experience, Play, Contact });
