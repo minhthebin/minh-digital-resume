@@ -304,7 +304,7 @@ function Contact() {
               </div>
               <span className="contact-link-arrow">↗</span>
             </a>
-            <a className="contact-link" href="https://www.linkedin.com/in/minh-anh-pham-4" target="_blank" rel="noopener">
+            <a className="contact-link" href="https://www.linkedin.com/in/minh-anh-pham4" target="_blank" rel="noopener">
               <div>
                 <div className="contact-link-label">LinkedIn</div>
                 <div>/in/minh-anh-pham-4</div>
