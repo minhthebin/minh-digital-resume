@@ -1,6 +1,5 @@
-/* sections.jsx — All page sections + experience data
-   Exposes components to window for app.jsx to consume.
-*/
+/* sections.jsx — All page sections + experience data */
+import React from "react";
 
 const EXPERIENCE = [
 {
@@ -401,4 +400,4 @@ function Play() {
 
 }
 
-Object.assign(window, { Hero, About, Experience, Play, Contact });
+export { Hero, About, Experience, Play, Contact };

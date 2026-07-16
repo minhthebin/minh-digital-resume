@@ -1,4 +1,11 @@
 /* app.jsx — Top-level App with nav, tweaks wiring, scroll-reveal */
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { Hero, About, Experience, Play, Contact } from "./sections.jsx";
+import {
+  useTweaks, TweaksPanel, TweakSection,
+  TweakColor, TweakSelect, TweakRadio,
+} from "./tweaks-panel.jsx";
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "palette": "sage",
@@ -10,6 +17,9 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 
 function useScrollReveal() {
   React.useEffect(() => {
+    // Enable the hidden-until-revealed state only now that JS is running;
+    // without this class the content renders visible by default.
+    document.documentElement.classList.add("reveal-js");
     const io = new IntersectionObserver(
       (entries) => {
         for (const e of entries) {
@@ -153,5 +163,5 @@ function App() {
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById("root"));
 root.render(<App />);

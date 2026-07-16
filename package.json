@@ -1,0 +1,17 @@
+{
+  "name": "minh-digital-resume",
+  "version": "1.0.0",
+  "description": "Minh Anh Pham — digital resume",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild app.jsx --bundle --minify --sourcemap --format=iife --target=es2019 --jsx=transform --define:process.env.NODE_ENV=\\\"production\\\" --outfile=assets/app.min.js",
+    "watch": "npm run build -- --watch",
+    "dev": "npm run build && python3 -m http.server 8080"
+  },
+  "dependencies": {
+    "esbuild": "^0.24.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
