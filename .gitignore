@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Logs / OS cruft
+*.log
+.DS_Store
+
+# Note: assets/app.min.js is intentionally committed — it is the built,
+# deploy-ready bundle for static hosting (GitHub Pages / Vercel), where
+# there is no CI step to run `npm run build`.

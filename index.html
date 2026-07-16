@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Minh Anh Pham · Strategy & Technology Transformation</title>
   <meta name="description" content="Strategy & Technology Transformation Consultant in Sydney, NSW. Strategic problem-solver, transformation catalyst, data-driven insights." />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#FEFDFB" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1A1613" media="(prefers-color-scheme: dark)" />
   <link rel="icon" href="assets/headshot.jpg" />
+  <link rel="preload" as="image" href="assets/headshot.jpg" fetchpriority="high" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,14 +20,8 @@
 <body>
   <div id="root"></div>
 
-  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
-
-  <script src="image-slot.js"></script>
-
-  <script type="text/babel" src="tweaks-panel.jsx"></script>
-  <script type="text/babel" src="sections.jsx"></script>
-  <script type="text/babel" src="app.jsx"></script>
+  <!-- Precompiled bundle (React + app, built via `npm run build`).
+       Replaces the former runtime Babel-standalone + CDN dev-React setup. -->
+  <script src="assets/app.min.js" defer></script>
 </body>
 </html>

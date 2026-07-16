@@ -1,6 +1,5 @@
-/* sections.jsx — All page sections + experience data
-   Exposes components to window for app.jsx to consume.
-*/
+/* sections.jsx — All page sections + experience data */
+import React from "react";
 
 const EXPERIENCE = [
 {
@@ -131,7 +130,7 @@ function Hero({ heroVariant }) {
         <div className="hero-portrait-wrap reveal d3 in">
           <div className="hero-portrait-tape"></div>
           <div className="hero-portrait">
-            <img src="assets/headshot.jpg" alt="Minh Anh Pham" />
+            <img src="assets/headshot.jpg" alt="Minh Anh Pham" width="380" height="475" loading="eager" fetchpriority="high" decoding="async" />
           </div>
           <div className="hero-portrait-tag">Hi, I'm Minh ✦</div>
         </div>
@@ -147,7 +146,7 @@ function About() {
     <section id="about">
       <div className="section-head reveal in">
         <div>
-          <span className="eyebrow">01 — About</span>
+          <span className="eyebrow">About</span>
           <h2 className="h-section">A <em>problem-solver</em> who speaks fluently in spreadsheets and slides.</h2>
         </div>
         <div className="section-head-right">By the numbers ↘</div>
@@ -256,7 +255,7 @@ function Experience({ layout }) {
     <section id="experience">
       <div className="section-head reveal in">
         <div>
-          <span className="eyebrow">02 — Experience</span>
+          <span className="eyebrow">Experience</span>
           <h2 className="h-section">Where I've <em>done the work.</em></h2>
         </div>
         <div className="section-head-right">
@@ -287,7 +286,7 @@ function Contact() {
       <div className="contact reveal in">
         <div className="contact-grid">
           <div>
-            <span className="eyebrow">05 — Get in touch</span>
+            <span className="eyebrow">Get in touch</span>
             <h2>Get to know me <em>better!</em></h2>
             <p className="contact-blurb">
               Happy to chat about strategy, transformation, or my experience.
@@ -364,7 +363,7 @@ function Play() {
     <section id="play">
       <div className="section-head reveal in">
         <div>
-          <span className="eyebrow">04 — Play</span>
+          <span className="eyebrow">Play</span>
           <h2 className="h-section">Things I do <em>off the clock.</em></h2>
         </div>
         <div className="section-head-right">Same person,<br />different tempo</div>
@@ -391,14 +390,14 @@ function Play() {
 
       <div className="play-photos reveal d4 in">
         <div className="play-photo">
-          <img src="assets/play-photo-1.jpg" alt="" className="play-photo-img" />
+          <img src="assets/play-photo-1.jpg" alt="" className="play-photo-img" loading="lazy" decoding="async" />
         </div>
         <div className="play-photo">
-          <img src="assets/play-photo-2.png" alt="" className="play-photo-img" />
+          <img src="assets/play-photo-2.png" alt="" className="play-photo-img" loading="lazy" decoding="async" />
         </div>
       </div>
     </section>);
 
 }
 
-Object.assign(window, { Hero, About, Experience, Play, Contact });
+export { Hero, About, Experience, Play, Contact };

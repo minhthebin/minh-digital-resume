@@ -14,7 +14,7 @@
   /* Ink */
   --ink: #2A2722;
   --ink-2: #4A453E;
-  --muted: #8B8680;
+  --muted: #6B655C; /* WCAG AA: 5.7:1 on --bg, 5.1:1 on --surface */
 
   /* Accents — overridden by palette tweak */
   --sage: #9CAA8D;
@@ -120,6 +120,14 @@ button { font: inherit; color: inherit; }
 
 ::selection { background: var(--accent-soft); color: var(--ink); }
 
+/* ── Keyboard focus (WCAG 2.4.7) — visible ring only for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--accent-deep);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+:focus:not(:focus-visible) { outline: none; }
+
 /* ──────────────────────────────────────────────────── layout */
 
 .page {
@@ -180,6 +188,7 @@ section { padding-block: var(--pad-section-y); }
   align-items: center;
   gap: 8px;
   padding: 8px 16px;
+  min-height: 44px; /* WCAG 2.5.5 touch target */
   border-radius: var(--r-btn);
   background: var(--ink);
   color: var(--bg);
@@ -195,21 +204,25 @@ section { padding-block: var(--pad-section-y); }
 
 /* ──────────────────────────────────────────────────── headings */
 
+/* Section marker — a quiet sentence-case label with the site's dot motif
+   (shared with the hero tagline and experience dates), deliberately NOT
+   the uppercase-tracked-mono kicker. */
 .eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-family: var(--ff-mono);
-  font-size: 11.5px;
+  gap: 9px;
+  font-family: var(--ff-body);
+  font-size: 13px;
   font-weight: 500;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--muted);
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink-2);
 }
 .eyebrow::before {
   content: "";
-  width: 28px;
-  height: 1px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
   background: var(--accent);
 }
 
@@ -280,8 +293,10 @@ section { padding-block: var(--pad-section-y); }
 .btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   padding: 14px 22px;
+  min-height: 44px; /* WCAG 2.5.5 touch target */
   border-radius: var(--r-btn);
   font-family: var(--ff-body);
   font-size: 14px;
@@ -1066,11 +1081,12 @@ section { padding-block: var(--pad-section-y); }
 [data-type="modern"] .play-card-glyph, [data-type="clean"] .play-card-glyph, [data-type="warm"] .play-card-glyph { font-weight: 600; }
 
 .play-card-eyebrow {
-  font-family: var(--ff-mono);
-  font-size: 11px;
-  color: var(--muted);
-  letter-spacing: .14em;
-  text-transform: uppercase;
+  font-family: var(--ff-body);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink-2);
+  letter-spacing: 0;
+  text-transform: none;
 }
 .play-card-title {
   margin: 0;
@@ -1155,11 +1171,6 @@ section { padding-block: var(--pad-section-y); }
   overflow: hidden;
   background: var(--surface);
   border: 1px solid var(--border);
-}
-.play-photo image-slot {
-  width: 100%;
-  height: 100%;
-  display: block;
 }
 .play-photo-img {
   width: 100%;
@@ -1290,13 +1301,20 @@ section { padding-block: var(--pad-section-y); }
 /* ──────────────────────────────────────────────────── reveal-on-scroll */
 
 .reveal {
-  opacity: 0;
-  transform: translateY(20px);
   transition: opacity .8s var(--ease), transform .8s var(--ease);
 }
-.reveal.in {
+/* Hidden state applies ONLY once JS activates it (html.reveal-js), so
+   content is visible by default for no-JS, crawlers, print and headless
+   renders — the reveal is pure progressive enhancement. */
+html.reveal-js .reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  will-change: opacity, transform;
+}
+html.reveal-js .reveal.in {
   opacity: 1;
   transform: translateY(0);
+  will-change: auto; /* release compositor layer once revealed */
 }
 .reveal.d1 { transition-delay: .05s; }
 .reveal.d2 { transition-delay: .12s; }
@@ -1309,4 +1327,81 @@ section { padding-block: var(--pad-section-y); }
   position: absolute;
   border-radius: 50%;
   pointer-events: none;
+}
+
+/* ──────────────────────────────────────────────────── DARK MODE
+   Inverts the neutral ramp and re-tones accents: "-deep" variants
+   (used as text) lighten for legibility on dark; "-soft" variants
+   (used as background tints) darken. Every combination holds ≥4.5:1.
+   ─────────────────────────────────────────────────── */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Surfaces — warm near-black ramp */
+    --bg: #1A1613;
+    --surface: #221D18;
+    --surface-2: #2B251F;
+    --border: #332C25;
+    --border-strong: #463D34;
+
+    /* Ink — warm off-whites */
+    --ink: #F3EDE4;
+    --ink-2: #C4BCB1;
+    --muted: #9A938A; /* 5.9:1 on --bg, 5.5:1 on --surface */
+
+    /* Accent sources re-toned for dark; active tokens below flow from these */
+    --sage: #9CAA8D;
+    --sage-deep: #B7C6A8;   /* text on dark: ~10:1 */
+    --sage-soft: #2C3326;   /* tint behind light ink */
+    --gold: #C9B49A;
+    --gold-deep: #D8C3A5;   /* text on dark: ~10.5:1 */
+    --gold-soft: #33291D;
+
+    /* Shadows need real opacity to read on a dark surface */
+    --shadow-sm: 0 1px 2px rgba(0,0,0,.30), 0 2px 8px rgba(0,0,0,.30);
+    --shadow-md: 0 2px 6px rgba(0,0,0,.35), 0 12px 32px rgba(0,0,0,.45);
+    --shadow-lg: 0 4px 12px rgba(0,0,0,.40), 0 24px 56px rgba(0,0,0,.55);
+  }
+
+  /* Palette tweaks hard-code their deep values in light mode — re-tone
+     those for dark so text-on-dark stays legible. */
+  [data-palette="gold"] {
+    --accent-deep: #E4D0B0;
+  }
+  [data-palette="neutral"] {
+    --accent: #A79F94;
+    --accent-deep: #D6CFC6;   /* 11.6:1 on --bg */
+    --accent-soft: var(--surface-2);
+    --accent-2: #948C82;
+    --accent-2-deep: #B8B0A6;
+    --accent-2-soft: var(--border);
+  }
+
+  /* Selection: light ink text is unreadable on the light-mode tint */
+  ::selection { background: var(--accent-deep); color: var(--bg); }
+
+  /* Photo caption glass flips from light to dark */
+  .play-photo-cap { background: rgba(26,22,19,.82); }
+}
+
+/* ──────────────────────────────────────────────────── REDUCED MOTION
+   Honour the OS preference: collapse transitions/animations, keep all
+   reveal-gated content visible, disable smooth scroll. (WCAG 2.3.3)
+   ─────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* Failsafe: reveal content is shown regardless of observer state */
+  .reveal { opacity: 1 !important; transform: none !important; }
+}
+
+/* Print / PDF: no scrolling to trigger reveals, so force every section
+   visible — important for a resume people will save to PDF or print. */
+@media print {
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+  .nav, .footer { position: static; }
 }
