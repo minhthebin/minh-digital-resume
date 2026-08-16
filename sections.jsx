@@ -3,35 +3,23 @@ import React from "react";
 
 const EXPERIENCE = [
 {
-  company: "Optus",
-  role: "PMO Analyst",
-  sub: "Portfolio Management",
-  dates: "Nov 2025 – Present",
-  short: "Now",
-  current: true,
-  industry: "Telecommunications",
-  tags: ["Variance Analysis", "Quarterly Planning", "OPEX / CAPEX Reporting"],
-  bullets: [
-  <>Surfaced <b>$257,000</b> in forecast-to-actual spend variances across <b>19 teams</b>, investigating every discrepancy with its initiative owner to protect budget integrity and turning the findings into budget and process recommendations adopted across all 19.</>,
-  <>Worked inside the portfolio's recurring <b>quarterly planning cycle</b> and its monthly confirmation of how project work is distributed across OPEX and CAPEX — a calendared planning cadence rather than one-off engagements.</>,
-  <>Pulled the monthly financial forecast out of <b>SAP S/4HANA</b>, running the standard report and taking its output, and paired it with timesheet data extracted from Atlassian Analytics — documenting the current-state reporting process end to end before any of it was automated.</>]
-
-},
-{
   company: "NCS Australia",
   role: "Associate Consultant",
-  sub: "Technology Advisory",
+  sub: "Technology Advisory · Seconded to Optus as PMO Analyst, Portfolio Management",
   dates: "Feb 2025 – Present",
   short: "Now",
   current: true,
-  industry: "Consulting",
-  tags: ["Program Shaping", "Operating Model", "Business Case", "MS Project"],
+  industry: "Consulting · Telecommunications",
+  tags: ["Program Shaping", "Operating Model", "MS Project", "Variance Analysis", "Business Case"],
   bullets: [
   <>Helped shape a <b>$90M+ IT transformation program</b> for a telecommunications client alongside NCS' Global Transformation Officer and National Strategy Lead — defining scope, phased deliverables, dependencies and scheduling, and helping draft the operating-model artefacts behind it: the RACI and role definitions, the governance and committee structure, the ways of working, and the decision-rights map.</>,
   <>Contributed to the program master schedule, reconciling <b>9 workstream timelines</b> into a single plan, analysing the dependencies between them, and restructuring it in MS Project to line up with the program's financial structure — baselined against the initial program-wide timeline.</>,
+  <>Surfaced <b>$257,000</b> in forecast-to-actual spend variances across <b>19 teams</b>, investigating every discrepancy with its initiative owner to protect budget integrity and turning the findings into budget and process recommendations adopted across all 19.</>,
+  <>On secondment to the client side, worked inside the portfolio's recurring <b>quarterly planning cycle</b> and its monthly confirmation of how project work is distributed across OPEX and CAPEX — a calendared planning cadence rather than one-off engagements.</>,
   <>Facilitated <b>20+ strategic workshops</b> with client executives and delivery teams to shape problem statements, analyse capacity requirements and co-design scalable operational roadmaps.</>,
   <>Built the cost comparison model behind a business case appraising <b>5 content management systems</b> for a utilities client — upfront replatforming, three-year licensing, hosting and technology costs — and summarised the options and recommendation in the final report to the client's CIO. The recommended path was scoped at <b>$200K to replatform plus $50K a year</b> to run.</>,
-  <>Replaced static reporting packs with an interactive dashboard built on AI-generated VBA logic, then handed it to the client's IT PMO across <b>5 walkthrough sessions</b> and a two-page written guide covering the prompts, the data sources, the instructions and a sampling check against an independent system. In use since April 2026, with the PMO running its monthly refresh themselves.</>]
+  <>Documented the current-state reporting process before automating any of it — the monthly financial forecast pulled out of <b>SAP S/4HANA</b> by running the standard report and taking its output, paired with timesheet data extracted from Atlassian Analytics — then replaced the static reporting packs with an interactive dashboard built on AI-generated VBA logic.</>,
+  <>Handed that dashboard to the client's IT PMO across <b>5 walkthrough sessions</b> and a two-page written guide covering the prompts, the data sources, the instructions and a sampling check against an independent system. In use since April 2026, with the PMO running its monthly refresh themselves.</>]
 
 },
 {
@@ -120,7 +108,7 @@ function Hero({ heroVariant }) {
             </div>
             <div>
               <span>Currently</span>
-              <strong>Optus · NCS Australia</strong>
+              <strong>NCS Australia · seconded to Optus</strong>
             </div>
             <div>
               <span>Education</span>
