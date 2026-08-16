@@ -141,7 +141,7 @@ function About() {
       <div className="section-head reveal in">
         <div>
           <span className="eyebrow">About</span>
-          <h2 className="h-section">A <em>problem-solver</em> who speaks fluently in spreadsheets and slides.</h2>
+          <h2 className="h-section">A <em>problem-solver</em> proficient in AI-tools, spreadsheets, and slidedecks.</h2>
         </div>
         <div className="section-head-right">By the numbers ↘</div>
       </div>
