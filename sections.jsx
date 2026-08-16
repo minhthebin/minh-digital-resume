@@ -5,20 +5,20 @@ const EXPERIENCE = [
 {
   company: "NCS Australia",
   role: "Associate Consultant",
-  sub: "Technology Advisory · Seconded to Optus as PMO Analyst, Portfolio Management",
+  sub: "Technology Advisory",
   dates: "Feb 2025 – Present",
   short: "Now",
   current: true,
   industry: "Consulting · Telecommunications",
   tags: ["Program Shaping", "Operating Model", "MS Project", "Variance Analysis", "Business Case"],
   bullets: [
-  <>Helped shape a <b>$90M+ IT transformation program</b> for a telecommunications client alongside NCS' Global Transformation Officer and National Strategy Lead — defining scope, phased deliverables, dependencies and scheduling, and helping draft the operating-model artefacts behind it: the RACI and role definitions, the governance and committee structure, the ways of working, and the decision-rights map.</>,
-  <>Contributed to the program master schedule, reconciling <b>9 workstream timelines</b> into a single plan, analysing the dependencies between them, and restructuring it in MS Project to line up with the program's financial structure — baselined against the initial program-wide timeline.</>,
+  <>Helped shape a <b>$90M+ IT transformation program</b> for a telecommunications client alongside NCS' Global Transformation Officer and National Strategy Lead, defining scope, phased deliverables, dependencies and scheduling, and helping draft the operating-model artefacts behind it: the RACI and role definitions, the governance and committee structure, the ways of working, and the decision-rights map.</>,
+  <>Contributed to the program master schedule, reconciling <b>9 workstream timelines</b> into a single plan, analysing the dependencies between them, and restructuring it in MS Project to line up with the program's financial structure. The plan was baselined against the initial program-wide timeline.</>,
   <>Surfaced <b>$257,000</b> in forecast-to-actual spend variances across <b>19 teams</b>, investigating every discrepancy with its initiative owner to protect budget integrity and turning the findings into budget and process recommendations adopted across all 19.</>,
-  <>On secondment to the client side, worked inside the portfolio's recurring <b>quarterly planning cycle</b> and its monthly confirmation of how project work is distributed across OPEX and CAPEX — a calendared planning cadence rather than one-off engagements.</>,
+  <>On secondment to the client side, worked inside the portfolio's recurring <b>quarterly planning cycle</b> and its monthly confirmation of how project work is distributed across OPEX and CAPEX, a calendared planning cadence rather than one-off engagements.</>,
   <>Facilitated <b>20+ strategic workshops</b> with client executives and delivery teams to shape problem statements, analyse capacity requirements and co-design scalable operational roadmaps.</>,
-  <>Built the cost comparison model behind a business case appraising <b>5 content management systems</b> for a utilities client — upfront replatforming, three-year licensing, hosting and technology costs — and summarised the options and recommendation in the final report to the client's CIO. The recommended path was scoped at <b>$200K to replatform plus $50K a year</b> to run.</>,
-  <>Documented the current-state reporting process before automating any of it — the monthly financial forecast pulled out of <b>SAP S/4HANA</b> by running the standard report and taking its output, paired with timesheet data extracted from Atlassian Analytics — then replaced the static reporting packs with an interactive dashboard built on AI-generated VBA logic.</>,
+  <>Built the cost comparison model behind a business case appraising <b>5 content management systems</b> for a utilities client, covering upfront replatforming, three-year licensing, hosting and technology costs, then summarised the options and recommendation in the final report to the client's CIO. The recommended path was scoped at <b>$200K to replatform plus $50K a year</b> to run.</>,
+  <>Documented the current-state reporting process before automating any of it, mapping its two inputs: the monthly financial forecast, pulled out of <b>SAP S/4HANA</b> by running the standard report and taking its output, and timesheet data extracted from Atlassian Analytics. Replaced the static reporting packs with an interactive dashboard built on AI-generated VBA logic.</>,
   <>Handed that dashboard to the client's IT PMO across <b>5 walkthrough sessions</b> and a two-page written guide covering the prompts, the data sources, the instructions and a sampling check against an independent system. In use since April 2026, with the PMO running its monthly refresh themselves.</>]
 
 },
@@ -33,7 +33,7 @@ const EXPERIENCE = [
   bullets: [
   <>Delivered <b>6 monthly competitive intelligence reports</b> to executive leadership and the board, profiling <b>3 major competitors</b> and using macroeconomic scenario forecasting to structure ambiguous demand outlooks into clear strategic options.</>,
   <>Modelled current-state market share and performance across <b>4 national corridors</b> to identify the highest- and lowest-performing segments, gathering competitor freight rates and setting them against internal yield figures as inputs to the model.</>,
-  <>Scoped, wrote and delivered a strategic report on Australian grain exports — national and international trends, blockers and forecasts, researched across industry and government sources — for the Executive of Commodities in <b>2 working days</b>.</>,
+  <>Scoped, wrote and delivered a strategic report on Australian grain exports for the Executive of Commodities in <b>2 working days</b>, covering national and international trends, blockers and forecasts researched across industry and government sources.</>,
   <>Built interactive <b>Power BI</b> dashboards and graphs to visualise the data behind macroeconomic and strategic reports, giving executive and board audiences a faster read on the analysis.</>]
 
 },
@@ -46,7 +46,7 @@ const EXPERIENCE = [
   industry: "Professional Services",
   tags: ["Stakeholder Engagement", "Data Strategy", "Bids & Proposals"],
   bullets: [
-  <>Facilitated <b>19 strategic workshops</b> across every business unit and the executive level to capture people, process and data requirements, shape problem statements and co-design a <b>data strategy roadmap</b> — supporting implementation and stakeholder adoption.</>,
+  <>Facilitated <b>19 strategic workshops</b> across every business unit and the executive level to capture people, process and data requirements, shape problem statements and co-design a <b>data strategy roadmap</b>, supporting implementation and stakeholder adoption.</>,
   <>Ran primary research with the client's internal stakeholders into customer needs and experience, analysing the findings to identify process-improvement opportunities that fed measurable business outcomes.</>,
   <>Wrote BDO's responses to client RFPs and produced proposal material, and managed the firm's internal opportunity tracker across its bid, tender and opportunity pipeline.</>]
 
@@ -56,7 +56,7 @@ const EXPERIENCE = [
 const OTHER_EXP = [
 { co: "Deloitte", role: "Technology Strategy & Transformation Intern", year: "2022–23", desc: "Mapped processes across 5 business functions in Miro and Visio, identifying the redesign opportunities that cut process cycle time." },
 { co: "BDO", role: "Cybersecurity Intern", year: "2022", desc: "Reviewed 200+ documents across four projects to confirm an APRA-regulated insurer's compliance with ISO 27001, SOC 2 Type II and APRA CPS 234." },
-{ co: "University of Technology Sydney", role: "Program Officer · Women in Engineering & IT", year: "2022", desc: "Led delivery of the Student Ambassador program — stakeholder liaison, delivery-risk mitigation and weekly status reporting to the faculty — and automated faculty comms with Salesforce Email Studio and Mail Merge, lifting newsletter open rates and event attendance." },
+{ co: "University of Technology Sydney", role: "Program Officer · Women in Engineering & IT", year: "2022", desc: "Led delivery of the Student Ambassador program, covering stakeholder liaison, delivery-risk mitigation and weekly status reporting to the faculty, and automated faculty comms with Salesforce Email Studio and Mail Merge, lifting newsletter open rates and event attendance." },
 { co: "BusinessOne Consulting", role: "Strategy Consultant · University of Sydney student society", year: "2022", desc: "Analysed 6 competitors in Australia's healthcare consulting market to sharpen the client's value proposition." },
 { co: "ANZ Bank", role: "Technology Intern", year: "2021", desc: "Produced configuration management and steering committee documentation to tighten project governance at a major Australian bank." }];
 
@@ -108,7 +108,7 @@ function Hero({ heroVariant }) {
             </div>
             <div>
               <span>Currently</span>
-              <strong>NCS Australia · seconded to Optus</strong>
+              <strong>NCS Australia</strong>
             </div>
             <div>
               <span>Education</span>
