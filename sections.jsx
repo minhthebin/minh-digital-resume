@@ -3,32 +3,23 @@ import React from "react";
 
 const EXPERIENCE = [
 {
-  company: "Optus",
-  role: "PMO Analyst",
-  sub: "Portfolio Management",
-  dates: "Nov 2025 – Present",
-  short: "Now",
-  current: true,
-  industry: "Telecommunications",
-  tags: ["SAP S/4HANA", "Variance Analysis", "Quarterly Planning"],
-  bullets: [
-  <>Identified <b>$257,000</b> in forecast-to-actual spend variances by reconciling cost data against SAP S/4HANA reporting, flagging and investigating each discrepancy with initiative owners to protect budget integrity.</>,
-  <>Co-led the FY26Q4 and FY27Q1 quarterly planning cycles across a <b>17-team, 485-resource</b> portfolio, consolidating timelines, resource forecasts and budget allocations into the approved portfolio prioritisation roadmap.</>]
-
-},
-{
   company: "NCS Australia",
   role: "Associate Consultant",
   sub: "Technology Advisory",
   dates: "Feb 2025 – Present",
   short: "Now",
   current: true,
-  industry: "Consulting",
-  tags: ["Business Case", "Options Analysis", "Digital Transformation"],
+  industry: "Consulting · Telecommunications",
+  tags: ["Program Shaping", "Operating Model", "MS Project", "Variance Analysis", "Business Case"],
   bullets: [
-  <>Managed a business-case cost model for a <b>~$700k</b> multi-year investment — owned inputs and assumptions, produced options analysis and recommendation slides for stakeholder review.</>,
-  <>Assessed <b>20 CMS platforms</b> against client KPIs for a regulated utilities client, narrowing the field to a single recommended solution.</>,
-  <>Supported a <b>$4M digital transformation</b> for a national telecommunications client, working with the Salesforce Lead and Global Transformation Officer on delivery and business-development strategy.</>]
+  <>Helped shape a <b>$90M+ IT transformation program</b> for a telecommunications client alongside NCS' Global Transformation Officer and National Strategy Lead, defining scope, phased deliverables, dependencies and scheduling, and helping draft the operating-model artefacts behind it: the RACI and role definitions, the governance and committee structure, the ways of working, and the decision-rights map.</>,
+  <>Contributed to the program master schedule, reconciling <b>9 workstream timelines</b> into a single plan, analysing the dependencies between them, and restructuring it in MS Project to line up with the program's financial structure. The plan was baselined against the initial program-wide timeline.</>,
+  <>Surfaced <b>$257,000</b> in forecast-to-actual spend variances across <b>19 teams</b>, investigating every discrepancy with its initiative owner to protect budget integrity and turning the findings into budget and process recommendations adopted across all 19.</>,
+  <>On secondment to the client side, worked inside the portfolio's recurring <b>quarterly planning cycle</b> and its monthly confirmation of how project work is distributed across OPEX and CAPEX, a calendared planning cadence rather than one-off engagements.</>,
+  <>Facilitated <b>20+ strategic workshops</b> with client executives and delivery teams to shape problem statements, analyse capacity requirements and co-design scalable operational roadmaps.</>,
+  <>Built the cost comparison model behind a business case appraising <b>5 content management systems</b> for a utilities client, covering upfront replatforming, three-year licensing, hosting and technology costs, then summarised the options and recommendation in the final report to the client's CIO. The recommended path was scoped at <b>$200K to replatform plus $50K a year</b> to run.</>,
+  <>Documented the current-state reporting process before automating any of it, mapping its two inputs: the monthly financial forecast, pulled out of <b>SAP S/4HANA</b> by running the standard report and taking its output, and timesheet data extracted from Atlassian Analytics. Replaced the static reporting packs with an interactive dashboard built on AI-generated VBA logic.</>,
+  <>Handed that dashboard to the client's IT PMO across <b>5 walkthrough sessions</b> and a two-page written guide covering the prompts, the data sources, the instructions and a sampling check against an independent system. In use since April 2026, with the PMO running its monthly refresh themselves.</>]
 
 },
 {
@@ -37,12 +28,13 @@ const EXPERIENCE = [
   sub: "Strategy & Competitive Intelligence",
   dates: "May 2024 – Nov 2024",
   short: "2024",
-  industry: "Rail & Logistics",
-  tags: ["Market Intelligence", "Scenario Forecasting", "Board Reporting"],
+  industry: "Rail Freight",
+  tags: ["Market Intelligence", "Scenario Forecasting", "Board Reporting", "Power BI"],
   bullets: [
-  <>Produced <b>6 monthly intelligence reports</b> for executive leadership and the board, forecasting national haulage demand through macroeconomic scenario analysis and flagging risks across state and national economies.</>,
-  <>Tracked <b>3 major players and 4 national rail corridors</b> to map market share, identifying the highest- and lowest-performing corridors to guide medium-to-long-term expansion strategy.</>,
-  <>Researched freight and truck traffic across <b>6 major highways</b>, giving the strategy team a clearer read on intermodal and bulk-industry competition.</>]
+  <>Delivered <b>6 monthly competitive intelligence reports</b> to executive leadership and the board, profiling <b>3 major competitors</b> and using macroeconomic scenario forecasting to structure ambiguous demand outlooks into clear strategic options.</>,
+  <>Modelled current-state market share and performance across <b>4 national corridors</b> to identify the highest- and lowest-performing segments, gathering competitor freight rates and setting them against internal yield figures as inputs to the model.</>,
+  <>Scoped, wrote and delivered a strategic report on Australian grain exports for the Executive of Commodities in <b>2 working days</b>, covering national and international trends, blockers and forecasts researched across industry and government sources.</>,
+  <>Built interactive <b>Power BI</b> dashboards and graphs to visualise the data behind macroeconomic and strategic reports, giving executive and board audiences a faster read on the analysis.</>]
 
 },
 {
@@ -51,29 +43,31 @@ const EXPERIENCE = [
   sub: "Digital & Technology Consulting",
   dates: "May 2023 – May 2024",
   short: "2023–24",
-  industry: "Healthcare",
-  tags: ["Stakeholder Engagement", "Data Strategy", "CX Research"],
+  industry: "Professional Services",
+  tags: ["Stakeholder Engagement", "Data Strategy", "Bids & Proposals"],
   bullets: [
-  <>Ran <b>19 stakeholder workshops</b> across every business unit up to CIO level to shape a private health insurer's data strategy — implemented alongside a new data governance steering committee.</>,
-  <>Mapped customer personas and a customer journey through primary research, contributing to a <b>25% uplift</b> in customer-satisfaction scores.</>]
+  <>Facilitated <b>19 strategic workshops</b> across every business unit and the executive level to capture people, process and data requirements, shape problem statements and co-design a <b>data strategy roadmap</b>, supporting implementation and stakeholder adoption.</>,
+  <>Ran primary research with the client's internal stakeholders into customer needs and experience, analysing the findings to identify process-improvement opportunities that fed measurable business outcomes.</>,
+  <>Wrote BDO's responses to client RFPs and produced proposal material, and managed the firm's internal opportunity tracker across its bid, tender and opportunity pipeline.</>]
 
 }];
 
 
 const OTHER_EXP = [
-{ co: "Deloitte", role: "Technology Strategy & Transformation Intern", year: "2023", desc: "Mapped processes across 5 business functions in Miro and Visio, cutting process cycle time by 33%." },
-{ co: "BDO", role: "Cybersecurity Intern", year: "2022", desc: "Reviewed 200+ documents across four projects to confirm client compliance with ISO 27001, SOC 2 Type II, and CPS 234." },
-{ co: "BusinessOne Consulting", role: "Strategy Consultant", year: "2022", desc: "Analysed 6 competitors in Australia's healthcare consulting market to sharpen the client's value proposition." },
-{ co: "ANZ Bank", role: "Technology Intern", year: "2021", desc: "Produced configuration management and steering committee documentation to tighten project governance." }];
+{ co: "Deloitte", role: "Technology Strategy & Transformation Intern", year: "2022–23", desc: "Mapped processes across 5 business functions in Miro and Visio, identifying the redesign opportunities that cut process cycle time." },
+{ co: "BDO", role: "Cybersecurity Intern", year: "2022", desc: "Reviewed 200+ documents across four projects to confirm an APRA-regulated insurer's compliance with ISO 27001, SOC 2 Type II and APRA CPS 234." },
+{ co: "University of Technology Sydney", role: "Program Officer · Women in Engineering & IT", year: "2022", desc: "Led delivery of the Student Ambassador program, covering stakeholder liaison, delivery-risk mitigation and weekly status reporting to the faculty, and automated faculty comms with Salesforce Email Studio and Mail Merge, lifting newsletter open rates and event attendance." },
+{ co: "BusinessOne Consulting", role: "Strategy Consultant · University of Sydney student society", year: "2022", desc: "Analysed 6 competitors in Australia's healthcare consulting market to sharpen the client's value proposition." },
+{ co: "ANZ Bank", role: "Technology Intern", year: "2021", desc: "Produced configuration management and steering committee documentation to tighten project governance at a major Australian bank." }];
 
 
 
 
 const NUMBERS = [
-{ fig: "$257", unit: "k", label: "Spend variances surfaced", desc: "Forecast-to-actual reconciliation against SAP S/4HANA at Optus." },
-{ fig: "25", unit: "%", label: "CSAT uplift", desc: "Personas & journey research at BDO for a private health insurer." },
-{ fig: "33", unit: "%", label: "Cycle-time reduction", desc: "Process mapping across 5 business functions at Deloitte." },
-{ fig: "485", unit: "", label: "Resources planned", desc: "Co-led FY26Q4 + FY27Q1 quarterly planning across 17 teams." }];
+{ fig: "$90", unit: "M+", label: "Transformation program shaped", desc: "Scope, deliverables, dependencies and schedule for a telco client's new operating model." },
+{ fig: "$257", unit: "k", label: "Spend variances surfaced", desc: "Forecast-to-actual reconciliation across 19 teams, investigated with every initiative owner." },
+{ fig: "20", unit: "+", label: "Executive workshops facilitated", desc: "Problem framing, capacity analysis and roadmap co-design with client executives." },
+{ fig: "9", unit: "", label: "Workstreams reconciled", desc: "Individual timelines merged into one program master schedule in MS Project." }];
 
 
 /* ──────────────────────────────── HERO */
@@ -90,8 +84,8 @@ function Hero({ heroVariant }) {
           </h1>
           <p className="hero-blurb reveal d3 in">
             Hi, I'm Minh! I'm an associate consultant with a passion for solving complex problems 
-            with structure and rigor. I have experience in regulated, asset-intensive industries such as telecommunications, 
-             freight, and private health insurance. 
+            with structure and rigor. I have experience in regulated, asset-intensive industries such as telecommunications,
+             rail freight, and insurance.
              I approach each problem with a set of paradigms - structure, diligence, and curiosity. Read on to find out more about my 9-5 and 5-9! 
           </p>
           <div className="hero-tagline reveal d4 in">
@@ -114,7 +108,7 @@ function Hero({ heroVariant }) {
             </div>
             <div>
               <span>Currently</span>
-              <strong>Optus · NCS Australia</strong>
+              <strong>NCS Australia</strong>
             </div>
             <div>
               <span>Education</span>
@@ -260,7 +254,7 @@ function Experience({ layout }) {
         </div>
         <div className="section-head-right">
           {EXPERIENCE.length} roles · 2023 → now<br />
-          + 4 earlier internships
+          + {OTHER_EXP.length} earlier roles
         </div>
       </div>
       <Body />
